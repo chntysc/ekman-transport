@@ -1,6 +1,6 @@
 from manimlib.imports import *
 
-class ArusEkmanPadaBBU(ThreeDScene):
+class EkmanTransportNorthernHemisphere(ThreeDScene):
     def construct(self):
         self.add_sound("hidro/ekman.wav")
         judul = TextMobject("Transpor Ekman\\\\",
@@ -90,9 +90,8 @@ class ArusEkmanPadaBBU(ThreeDScene):
             *[FadeOut(mob) for mob in self.mobjects])
 
 
-class ArusEkmanPadaBBS(ThreeDScene):
+class EkmanTransportSouthernHemisphere(ThreeDScene):
     def construct(self):
-        
 
         judul = TextMobject("Transpor Ekman\\\\",
                                 "di BBS", arg_separator="").scale(0.8).set_color_by_gradient(BLUE_B, TEAL)
